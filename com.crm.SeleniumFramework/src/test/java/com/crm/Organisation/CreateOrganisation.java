@@ -53,6 +53,7 @@ public class CreateOrganisation {
 		home.clickOrganizationLink();
 		
 		driver.findElement(By.xpath("//img[@src='themes/softed/images/btnL3Add.gif']")).click();
+		driver.close();
 		driver.quit();
 		
 		
